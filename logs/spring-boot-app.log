@@ -1,0 +1,331 @@
+2024-10-02T00:57:50.847+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 15476 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T00:57:50.857+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T00:57:50.929+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T00:57:50.930+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T00:57:51.746+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T00:57:51.843+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 89 ms. Found 3 JPA repository interfaces.
+2024-10-02T00:57:52.539+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T00:57:52.552+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T00:57:52.552+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T00:57:52.596+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T00:57:52.596+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1650 ms
+2024-10-02T00:57:52.735+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T00:57:52.814+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T00:57:52.870+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T00:57:53.142+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T00:57:53.177+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T00:57:54.191+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4565efef
+2024-10-02T00:57:54.193+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T00:57:55.245+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T00:57:56.036+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T00:57:56.660+07:00  WARN 15476 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T00:57:56.770+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T00:57:57.361+07:00  WARN 15476 --- [doan-tmdt] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressEntity' defined in com.example.doantmdt.repository.AddressEntity defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: interface com.example.doantmdt.repository.AddressEntity
+2024-10-02T00:57:57.364+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T00:57:57.367+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-02T00:57:57.374+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-02T00:57:57.377+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-10-02T00:57:57.388+07:00  INFO 15476 --- [doan-tmdt] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-02T00:57:57.405+07:00 ERROR 15476 --- [doan-tmdt] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'addressEntity' defined in com.example.doantmdt.repository.AddressEntity defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: interface com.example.doantmdt.repository.AddressEntity
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:969) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.example.doantmdt.DoanTmdtApplication.main(DoanTmdtApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.4.jar:3.3.4]
+Caused by: java.lang.IllegalArgumentException: Not a managed type: interface com.example.doantmdt.repository.AddressEntity
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:194) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:469) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:99) ~[hibernate-core-6.5.3.Final.jar:6.5.3.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:249) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:214) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:197) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:317) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$5(RepositoryFactoryBeanSupport.java:286) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.util.Lazy.get(Lazy.java:113) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:292) ~[spring-data-commons-3.3.4.jar:3.3.4]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132) ~[spring-data-jpa-3.3.4.jar:3.3.4]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802) ~[spring-beans-6.1.13.jar:6.1.13]
+	... 19 common frames omitted
+
+2024-10-02T01:00:40.097+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 11992 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T01:00:40.098+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T01:00:40.130+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T01:00:40.130+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T01:00:40.743+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T01:00:40.800+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 3 JPA repository interfaces.
+2024-10-02T01:00:41.323+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T01:00:41.336+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T01:00:41.338+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T01:00:41.377+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T01:00:41.378+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1232 ms
+2024-10-02T01:00:41.485+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T01:00:41.511+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T01:00:41.530+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T01:00:41.695+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T01:00:41.710+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T01:00:41.949+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@459af588
+2024-10-02T01:00:41.949+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T01:00:42.619+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T01:00:42.708+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T01:00:43.032+07:00  WARN 11992 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T01:00:43.136+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T01:00:43.652+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-02T01:00:43.710+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-02T01:00:43.718+07:00  INFO 11992 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Started DoanTmdtApplication in 3.901 seconds (process running for 4.504)
+2024-10-02T01:01:27.188+07:00  INFO 11992 --- [doan-tmdt] [http-nio-9000-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02T01:01:27.189+07:00  INFO 11992 --- [doan-tmdt] [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-02T01:01:27.190+07:00  INFO 11992 --- [doan-tmdt] [http-nio-9000-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-02T01:01:27.334+07:00  WARN 11992 --- [doan-tmdt] [http-nio-9000-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'username' for method parameter type String is not present]
+2024-10-02T01:01:50.346+07:00  INFO 11992 --- [doan-tmdt] [http-nio-9000-exec-9] c.e.d.service.implement.IAccountService  : Invalid Account!
+2024-10-02T01:01:50.359+07:00  WARN 11992 --- [doan-tmdt] [http-nio-9000-exec-9] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.doantmdt.exceptions.users.InvalidCredentialsException: Invalid Account!]
+2024-10-02T01:17:35.321+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 2072 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T01:17:35.321+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T01:17:35.346+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T01:17:35.346+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T01:17:36.042+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T01:17:36.108+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 3 JPA repository interfaces.
+2024-10-02T01:17:36.689+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T01:17:36.705+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T01:17:36.705+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T01:17:36.752+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T01:17:36.752+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1393 ms
+2024-10-02T01:17:36.877+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T01:17:36.955+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T01:17:37.003+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T01:17:37.246+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T01:17:37.277+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T01:17:37.678+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@107480ce
+2024-10-02T01:17:37.678+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T01:17:38.614+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T01:17:39.262+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T01:17:39.654+07:00  WARN 2072 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T01:17:39.767+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T01:17:40.339+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-02T01:17:40.402+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-02T01:17:40.418+07:00  INFO 2072 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Started DoanTmdtApplication in 5.389 seconds (process running for 6.079)
+2024-10-02T01:22:09.686+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 1672 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T01:22:09.687+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T01:22:09.722+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T01:22:09.722+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T01:22:10.333+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T01:22:10.411+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2024-10-02T01:22:10.941+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T01:22:10.951+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T01:22:10.953+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T01:22:10.986+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T01:22:10.987+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1250 ms
+2024-10-02T01:22:11.093+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T01:22:11.125+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T01:22:11.150+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T01:22:11.311+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T01:22:11.328+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T01:22:11.569+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4b2ae4f5
+2024-10-02T01:22:11.570+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T01:22:12.243+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T01:22:12.318+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T01:22:12.650+07:00  WARN 1672 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T01:22:12.759+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T01:22:13.287+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-02T01:22:13.335+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-02T01:22:13.343+07:00  INFO 1672 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Started DoanTmdtApplication in 3.953 seconds (process running for 4.713)
+2024-10-02T01:51:57.951+07:00  WARN 1672 --- [doan-tmdt] [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m46s33ms14µs900ns).
+2024-10-02T14:43:48.043+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 7832 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T14:43:48.045+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T14:43:48.081+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T14:43:48.082+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T14:43:48.801+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T14:43:48.862+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 3 JPA repository interfaces.
+2024-10-02T14:43:49.374+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T14:43:49.384+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T14:43:49.384+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T14:43:49.423+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T14:43:49.424+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1328 ms
+2024-10-02T14:43:49.547+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T14:43:49.623+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T14:43:49.675+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T14:43:49.926+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T14:43:49.949+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T14:43:50.400+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23d85b24
+2024-10-02T14:43:50.402+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T14:43:51.222+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T14:43:51.354+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T14:43:51.735+07:00  WARN 7832 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T14:43:51.835+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T14:43:52.380+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-02T14:43:52.428+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-02T14:43:52.434+07:00  INFO 7832 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Started DoanTmdtApplication in 4.698 seconds (process running for 5.575)
+2024-10-02T14:44:33.240+07:00  INFO 7832 --- [doan-tmdt] [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02T14:44:33.240+07:00  INFO 7832 --- [doan-tmdt] [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-02T14:44:33.241+07:00  INFO 7832 --- [doan-tmdt] [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-02T14:44:33.405+07:00  INFO 7832 --- [doan-tmdt] [http-nio-9000-exec-1] c.e.d.service.implement.IQueryService    : Create root Role success
+2024-10-02T14:44:33.554+07:00  INFO 7832 --- [doan-tmdt] [http-nio-9000-exec-1] c.e.d.service.implement.IQueryService    : Create root account success
+2024-10-02T14:47:11.040+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 15932 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T14:47:11.042+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T14:47:11.081+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T14:47:11.081+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T14:47:11.663+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T14:47:11.718+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 3 JPA repository interfaces.
+2024-10-02T14:47:12.216+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T14:47:12.227+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T14:47:12.227+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T14:47:12.263+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T14:47:12.264+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1162 ms
+2024-10-02T14:47:12.402+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T14:47:12.468+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T14:47:12.511+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T14:47:12.762+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T14:47:12.788+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T14:47:13.114+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13149764
+2024-10-02T14:47:13.115+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T14:47:13.821+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T14:47:13.880+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T14:47:14.237+07:00  WARN 15932 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T14:47:14.349+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T14:47:14.809+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-02T14:47:14.857+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-02T14:47:14.864+07:00  INFO 15932 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Started DoanTmdtApplication in 4.131 seconds (process running for 4.989)
+2024-10-02T14:47:50.062+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 12788 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T14:47:50.064+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T14:47:50.100+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T14:47:50.100+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T14:47:50.634+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T14:47:50.684+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2024-10-02T14:47:51.101+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T14:47:51.110+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T14:47:51.110+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T14:47:51.138+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T14:47:51.138+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1022 ms
+2024-10-02T14:47:51.221+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T14:47:51.246+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T14:47:51.265+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T14:47:51.403+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T14:47:51.417+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T14:47:51.624+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7348d572
+2024-10-02T14:47:51.625+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T14:47:52.208+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T14:47:52.845+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T14:47:53.157+07:00  WARN 12788 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T14:47:53.257+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T14:47:53.689+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-02T14:47:53.731+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-02T14:47:53.738+07:00  INFO 12788 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Started DoanTmdtApplication in 3.966 seconds (process running for 4.748)
+2024-10-02T14:47:59.510+07:00  INFO 12788 --- [doan-tmdt] [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02T14:47:59.511+07:00  INFO 12788 --- [doan-tmdt] [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-02T14:47:59.512+07:00  INFO 12788 --- [doan-tmdt] [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-10-02T14:47:59.622+07:00  INFO 12788 --- [doan-tmdt] [http-nio-9000-exec-1] c.e.d.service.implement.IQueryService    : Create root Role success
+2024-10-02T14:47:59.729+07:00  INFO 12788 --- [doan-tmdt] [http-nio-9000-exec-1] c.e.d.service.implement.IQueryService    : Create root account success
+2024-10-02T14:57:47.786+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 16128 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T14:57:47.788+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T14:57:47.827+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T14:57:47.827+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T14:57:48.385+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T14:57:48.435+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 3 JPA repository interfaces.
+2024-10-02T14:57:48.892+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T14:57:48.903+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T14:57:48.904+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T14:57:48.942+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T14:57:48.942+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1099 ms
+2024-10-02T14:57:49.040+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T14:57:49.084+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T14:57:49.127+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T14:57:49.342+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T14:57:49.362+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T14:57:49.629+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52abd9e2
+2024-10-02T14:57:49.631+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T14:57:50.379+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T14:57:50.440+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T14:57:50.766+07:00  WARN 16128 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T14:57:50.868+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T14:57:51.375+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-02T14:57:51.423+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-02T14:57:51.432+07:00  INFO 16128 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Started DoanTmdtApplication in 3.952 seconds (process running for 4.761)
+2024-10-02T14:58:10.047+07:00  INFO 16128 --- [doan-tmdt] [http-nio-9000-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02T14:58:10.047+07:00  INFO 16128 --- [doan-tmdt] [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-02T14:58:10.048+07:00  INFO 16128 --- [doan-tmdt] [http-nio-9000-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-02T15:01:44.877+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 1612 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T15:01:44.879+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T15:01:44.917+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T15:01:44.918+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T15:01:45.524+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T15:01:45.587+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 3 JPA repository interfaces.
+2024-10-02T15:01:46.066+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T15:01:46.081+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T15:01:46.085+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T15:01:46.117+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T15:01:46.118+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1180 ms
+2024-10-02T15:01:46.204+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T15:01:46.234+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T15:01:46.255+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T15:01:46.410+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T15:01:46.424+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T15:01:46.625+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@652003d2
+2024-10-02T15:01:46.626+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T15:01:47.234+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T15:01:47.290+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T15:01:47.610+07:00  WARN 1612 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T15:01:47.709+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T15:01:48.142+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-02T15:01:48.190+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-02T15:01:48.199+07:00  INFO 1612 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Started DoanTmdtApplication in 3.628 seconds (process running for 4.194)
+2024-10-02T15:01:59.736+07:00  INFO 1612 --- [doan-tmdt] [http-nio-9000-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02T15:01:59.737+07:00  INFO 1612 --- [doan-tmdt] [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-02T15:01:59.738+07:00  INFO 1612 --- [doan-tmdt] [http-nio-9000-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-10-02T15:02:14.834+07:00  INFO 1612 --- [doan-tmdt] [http-nio-9000-exec-4] c.e.d.service.implement.IAccountService  : Invalid Account!
+2024-10-02T15:02:14.841+07:00  WARN 1612 --- [doan-tmdt] [http-nio-9000-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.doantmdt.exceptions.users.InvalidCredentialsException: Invalid Account!]
+2024-10-02T15:04:45.618+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Starting DoanTmdtApplication using Java 21.0.1 with PID 5880 (D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt\target\classes started by FUJSTU in D:\Intellij\Intellij_workspace\qldt_tv\doan-tmdt)
+2024-10-02T15:04:45.620+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-10-02T15:04:45.663+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-02T15:04:45.663+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-02T15:04:46.359+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-02T15:04:46.411+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 3 JPA repository interfaces.
+2024-10-02T15:04:46.855+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9000 (http)
+2024-10-02T15:04:46.865+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-02T15:04:46.866+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-10-02T15:04:46.899+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-02T15:04:46.899+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1218 ms
+2024-10-02T15:04:46.993+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-02T15:04:47.023+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-02T15:04:47.044+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-02T15:04:47.199+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-02T15:04:47.213+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-02T15:04:47.416+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6ca1396
+2024-10-02T15:04:47.418+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-02T15:04:48.014+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-02T15:04:48.069+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-02T15:04:48.387+07:00  WARN 5880 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-02T15:04:48.486+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-10-02T15:04:48.914+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-10-02T15:04:48.963+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9000 (http) with context path '/'
+2024-10-02T15:04:48.973+07:00  INFO 5880 --- [doan-tmdt] [restartedMain] c.example.doantmdt.DoanTmdtApplication   : Started DoanTmdtApplication in 3.645 seconds (process running for 4.455)
+2024-10-02T15:04:54.920+07:00  INFO 5880 --- [doan-tmdt] [http-nio-9000-exec-7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-02T15:04:54.920+07:00  INFO 5880 --- [doan-tmdt] [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-10-02T15:04:54.922+07:00  INFO 5880 --- [doan-tmdt] [http-nio-9000-exec-7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-10-02T15:05:11.800+07:00  INFO 5880 --- [doan-tmdt] [http-nio-9000-exec-2] c.e.d.service.implement.IAccountService  : Invalid Account!
+2024-10-02T15:05:11.802+07:00  WARN 5880 --- [doan-tmdt] [http-nio-9000-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.doantmdt.exceptions.users.InvalidCredentialsException: Invalid Account!]
+2024-10-02T15:10:00.553+07:00  INFO 5880 --- [doan-tmdt] [http-nio-9000-exec-5] c.e.d.service.implement.IAccountService  : Invalid Account!
+2024-10-02T15:10:00.554+07:00  WARN 5880 --- [doan-tmdt] [http-nio-9000-exec-5] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.doantmdt.exceptions.users.InvalidCredentialsException: Invalid Account!]
+2024-10-02T15:10:16.365+07:00  WARN 16056 --- [doan-tmdt] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
